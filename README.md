@@ -23,7 +23,7 @@ Para clonar este proyecto y visualizarlo de forma local en tu navegador, seguí 
 Abrí tu terminal o consola de comandos, posicionate en la carpeta donde quieras guardar el proyecto y ejecutá el siguiente comando (reemplazando por la URL que copiaste):
 
 ### 3. En la Terminal del Editor de código
-git clone [https://github.com/andreaguinder/tareas-curso-react-utn.git](https://github.com/andreaguinder/tareas-curso-react-utn.git)
+git clone [https://github.com/andreaguinder/tarea2-react-UTN.git](https://github.com/andreaguinder/tarea2-react-UTN.git)
 
 ## 📸 Captura de pantalla de la página final
 
