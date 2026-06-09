@@ -1,34 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Tarea 2: JavaScript Esencial - Formulario - Andrea Guinder</title>
-</head>
-<body>
-    <h1>Registro al evento</h1>
-    <form action="">
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <label for="edad">Edad</label>
-        <input type="number" id="edad" name="edad" required>
+  </head>
+  <body>
+    <main>
+      <div class="contenedor-formulario">
+        <h1>Registro al evento</h1>
 
-        <button id="formButton" type="submit" disabled>Enviar</button>
+        <form action="">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="edad">Edad</label>
+          <input type="number" id="edad" name="edad" required />
 
-        <p class="rellenarDatosForm"></p>
-    </form>
+          <button id="formButton" type="submit" disabled>Enviar</button>
 
+          <p class="rellenarDatosForm"></p>
+        </form>
+      </div>
 
-    <div class="contenedor">
+      <div class="contenedor">
         <h2>Noche de máscaras</h2>
-        <img src="./images/antifaz.png" alt="Imagen de antifaz">
+        <img src="./images/antifaz.png" alt="Imagen de antifaz" />
         <h3 class="mensajeParaElUsuario"></h3>
-    </div>
+      </div>
+    </main>
 
-
-    
     <script src="./js/app.js"></script>
-
-</body>
+  </body>
 </html>

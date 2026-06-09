@@ -4,9 +4,20 @@
 }
 
 body {
-  background-color: rgb(15, 3, 103);
+  background-image: url("/images/fondo-galaxia-realista_23-2148991322.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   padding-top: 50px;
   font-family: "Inter", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 80px;
+  margin: auto;
 }
 
 h1 {
@@ -16,8 +27,8 @@ h1 {
 }
 
 form {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -56,8 +67,7 @@ form button:disabled {
 }
 
 .contenedor {
-  margin: 50px auto 0px;
-  background-color: rgb(209, 246, 245);
+  background-color: rgb(231, 214, 239);
   color: black;
   max-width: 600px;
   padding: 30px;
@@ -73,6 +83,7 @@ form button:disabled {
 }
 .contenedor h3 {
   font-size: 28px;
+  max-width: 500px;
 }
 .contenedor img {
   width: 70%;
